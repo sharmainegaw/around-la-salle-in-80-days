@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.image.*?>
+
+<GridPane fx:id="rootPane" xmlns:fx="http://javafx.com/fxml"
+          fx:controller="alsid.controller.MainScreenController"
+          style="-fx-background-color: #3c995d"
+          alignment="CENTER_LEFT" hgap="10" vgap="10">
+    <padding>
+        <Insets top="10" right="10" bottom="10" left="150"/>
+    </padding>
+
+    <ImageView fitHeight="500.0" fitWidth="500.0"
+               pickOnBounds="true" preserveRatio="true"
+               GridPane.columnIndex = "0" GridPane.rowIndex = "0"
+               GridPane.columnSpan="2" GridPane.rowSpan = "2">
+        <Image url="/alsid/assets/mainscreen-title.png" />
+    </ImageView>
+
+    <Label text="LANCE &amp; SHARMAINE" textAlignment="CENTER" GridPane.halignment="CENTER"
+           style="-fx-font-size: 20; -fx-font-family: 'Determination Mono';
+                   -fx-text-fill: #553619;" wrapText="true" mouseTransparent="true"
+           GridPane.rowIndex="3" GridPane.columnIndex="0" GridPane.columnSpan="2"/>
+
+    <HBox spacing="10" alignment="CENTER"
+          GridPane.rowIndex="4" GridPane.columnIndex="0"
+          GridPane.columnSpan="2">
+        <Button layoutX="130.0" layoutY="130.0" mnemonicParsing="false"
+                style= "-fx-background-color: transparent; -fx-cursor: hand;"
+                onAction = "#handleStartButtonAction">
+            <graphic>
+                <ImageView fitHeight="130.0" fitWidth="130.0" pickOnBounds="true" preserveRatio="true">
+                    <Image url="/alsid/assets/button-start.png" />
+                </ImageView>
+            </graphic>
+        </Button>
+        <Button layoutX="130.0" layoutY="130.0" mnemonicParsing="false"
+                style= "-fx-background-color: transparent; -fx-cursor: hand;"
+                onAction="#handleExitButtonAction">
+            <graphic>
+                <ImageView fitHeight="130.0" fitWidth="130.0" pickOnBounds="true" preserveRatio="true">
+                    <Image url="/alsid/assets/button-exit.png" />
+                </ImageView>
+            </graphic>
+        </Button>
+    </HBox>
+</GridPane>

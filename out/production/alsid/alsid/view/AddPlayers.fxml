@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.image.*?>
+
+<?import javafx.scene.text.Text?>
+<GridPane fx:id="rootPane" xmlns:fx="http://javafx.com/fxml"
+          fx:controller="alsid.controller.AddPlayersController"
+          style="-fx-background-color: transparent"
+          alignment="CENTER" hgap="50" vgap="10">
+
+    <padding>
+        <Insets top="300" bottom="300" left="350" right="300"/>
+    </padding>
+
+    <ImageView fitHeight="250.0" fitWidth="250.0" GridPane.halignment="CENTER"
+               pickOnBounds="true" preserveRatio="true"
+               GridPane.columnIndex = "0" GridPane.rowIndex = "0"
+               GridPane.columnSpan="2">
+        <Image url="/alsid/assets/add-players-title.png" />
+    </ImageView>
+
+    <HBox spacing="10" alignment="CENTER"
+          GridPane.rowIndex="1" GridPane.columnIndex="0"
+          GridPane.columnSpan="2">
+        <Button layoutX="130.0" layoutY="130.0" mnemonicParsing="false"
+                style= "-fx-background-color: transparent; -fx-cursor: hand;"
+                onAction = "#handleAddPlayerButtonAction">
+            <graphic>
+                <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+                    <Image url="/alsid/assets/button-add-player.png" />
+                </ImageView>
+            </graphic>
+        </Button>
+
+        <Button layoutX="130.0" layoutY="130.0" mnemonicParsing="false"
+                style= "-fx-background-color: transparent; -fx-cursor: hand;"
+                onAction="#handleRemovePlayerButtonAction">
+            <graphic>
+                <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+                    <Image url="/alsid/assets/button-remove-player.png" />
+                </ImageView>
+            </graphic>
+        </Button>
+    </HBox>
+
+    <ImageView fx:id="imgView1" fitHeight="220.0" fitWidth="220.0" pickOnBounds="true"
+               preserveRatio="true" visible="false"
+               GridPane.rowIndex="2" GridPane.columnIndex="0"
+               GridPane.columnSpan="2">
+        <Image url="/alsid/assets/field-name.png"/>
+    </ImageView>
+
+    <TextField fx:id="nameField1" visible="false"
+               style= "-fx-background-color: transparent;
+               -fx-font-size: 15; -fx-font-family: 'Determination Mono'"
+               GridPane.rowIndex="2" GridPane.columnIndex="1"/>
+
+    <ImageView fx:id="imgView2" fitHeight="220.0" fitWidth="220.0" pickOnBounds="true"
+               preserveRatio="true" visible="false"
+               GridPane.rowIndex="3" GridPane.columnIndex="0"
+               GridPane.columnSpan="2">
+        <Image url="/alsid/assets/field-name.png"/>
+    </ImageView>
+
+    <TextField fx:id="nameField2" visible="false"
+               style= "-fx-background-color: transparent;
+               -fx-font-size: 15; -fx-font-family: 'Determination Mono'"
+               GridPane.rowIndex="3" GridPane.columnIndex="1"/>
+
+    <ImageView fx:id="imgView3" fitHeight="220.0" fitWidth="220.0" pickOnBounds="true"
+               preserveRatio="true" visible="false"
+               GridPane.rowIndex="4" GridPane.columnIndex="0"
+               GridPane.columnSpan="2">
+        <Image url="/alsid/assets/field-name.png"/>
+    </ImageView>
+
+    <TextField fx:id="nameField3" visible="false"
+               style= "-fx-background-color: transparent;
+               -fx-font-size: 15; -fx-font-family: 'Determination Mono'"
+               GridPane.rowIndex="4" GridPane.columnIndex="1"/>
+
+    <ImageView fx:id="imgView4" fitHeight="220.0" fitWidth="220.0" pickOnBounds="true"
+               preserveRatio="true" visible="false"
+               GridPane.rowIndex="5" GridPane.columnIndex="0"
+               GridPane.columnSpan="2">
+        <Image url="/alsid/assets/field-name.png"/>
+    </ImageView>
+
+    <TextField fx:id="nameField4" visible="false"
+               style= "-fx-background-color: transparent;
+               -fx-font-size: 15; -fx-font-family: 'Determination Mono'"
+               GridPane.rowIndex="5" GridPane.columnIndex="1"/>
+
+    <Button layoutX="130.0" layoutY="130.0" mnemonicParsing="false"
+            style= "-fx-background-color: transparent; -fx-cursor: hand;"
+            GridPane.rowIndex="6" GridPane.columnIndex="0"
+            GridPane.columnSpan="2" alignment="CENTER"
+            onAction = "#handleStartGameButtonAction">
+        <graphic>
+            <ImageView fitHeight="200.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                <Image url="/alsid/assets/button-start-game.png" />
+            </ImageView>
+        </graphic>
+    </Button>
+
+    <Text fx:id="warning" visible="false" textAlignment="CENTER"
+          style="-fx-font-family: 'Determination Mono'; -fx-font-size: 17;"
+          GridPane.columnSpan="2" GridPane.rowIndex="7" GridPane.columnIndex="0"/>
+</GridPane>

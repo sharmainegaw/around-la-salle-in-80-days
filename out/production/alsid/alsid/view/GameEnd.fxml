@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.geometry.Insets?>
+<GridPane fx:id="board" xmlns="http://javafx.com/javafx"
+          xmlns:fx="http://javafx.com/fxml" style="-fx-background-color: transparent"
+          alignment="CENTER" hgap="30" vgap="30">
+    <padding>
+        <Insets top="0" bottom="0" left="-330" right="30"/>
+    </padding>
+
+    <ImageView fx:id="box1" fitHeight="500.0" fitWidth="500.0"
+               pickOnBounds="true" preserveRatio="true" visible="false"
+               GridPane.columnIndex = "0" GridPane.rowIndex = "0"
+               GridPane.columnSpan="2">
+        <Image url="/alsid/assets/box-rank-1.png" />
+    </ImageView>
+
+    <ImageView fx:id="box2" fitHeight="300.0" fitWidth="300.0"
+               pickOnBounds="true" preserveRatio="true" visible="false"
+               GridPane.columnIndex = "0" GridPane.rowIndex = "1">
+        <Image url="/alsid/assets/box-rank-2.png" />
+    </ImageView>
+
+    <ImageView fx:id="box3" fitHeight="300.0" fitWidth="300.0"
+               pickOnBounds="true" preserveRatio="true" visible="false"
+               GridPane.columnIndex = "1" GridPane.rowIndex = "1">
+        <Image url="/alsid/assets/box-rank-3.png" />
+    </ImageView>
+
+    <ImageView fx:id="box4" fitHeight="300.0" fitWidth="300.0"
+               pickOnBounds="true" preserveRatio="true" visible="false"
+               GridPane.columnIndex = "2" GridPane.rowIndex = "1">
+        <Image url="/alsid/assets/box-rank-4.png" />
+    </ImageView>
+
+
+
+    <Label fx:id="playerDisplay1" textAlignment="LEFT"
+           style="-fx-font-size: 40; -fx-font-family: 'Determination Mono';
+                   -fx-text-fill: #935306; -fx-padding: 0 0 0 140" wrapText="true"
+           GridPane.rowIndex="0" GridPane.columnIndex="0" GridPane.columnSpan="2" />
+
+    <Label fx:id="playerDisplay2" textAlignment="LEFT"
+           style="-fx-font-size: 25; -fx-font-family: 'Determination Mono';
+                   -fx-text-fill: #548a6c; -fx-padding: 0 0 0 100" wrapText="true"
+           GridPane.rowIndex="1" GridPane.columnIndex="0"/>
+
+    <Label fx:id="playerDisplay3" textAlignment="LEFT"
+           style="-fx-font-size: 25; -fx-font-family: 'Determination Mono';
+                   -fx-text-fill: #783426; -fx-padding: 0 0 0 100" wrapText="true"
+           GridPane.rowIndex="1" GridPane.columnIndex="1"/>
+
+    <Label fx:id="playerDisplay4" textAlignment="LEFT"
+           style="-fx-font-size: 25; -fx-font-family: 'Determination Mono';
+                   -fx-text-fill: #4d3d3d; -fx-padding: 0 0 0 100" wrapText="true"
+           GridPane.rowIndex="1" GridPane.columnIndex="2"/>
+
+
+
+    <ImageView fx:id="sprite1" GridPane.rowIndex = "0" GridPane.columnIndex = "0"
+               fitHeight="90" fitWidth="90" pickOnBounds="true" visible="false"
+               preserveRatio="true"/>
+
+    <ImageView fx:id="sprite2" GridPane.rowIndex = "1" GridPane.columnIndex = "0"
+               fitHeight="50" fitWidth="50" pickOnBounds="true" visible="false"
+               preserveRatio="true"/>
+
+    <ImageView fx:id="sprite3" GridPane.rowIndex = "1" GridPane.columnIndex = "1"
+               fitHeight="50" fitWidth="50" pickOnBounds="true" visible="false"
+               preserveRatio="true"/>
+
+    <ImageView fx:id="sprite4" GridPane.rowIndex = "1" GridPane.columnIndex = "2"
+               fitHeight="50" fitWidth="50" pickOnBounds="true" visible="false"
+               preserveRatio="true"/>
+
+</GridPane>

@@ -1,0 +1,773 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.image.* ?>
+
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.text.Font?>
+
+<HBox fx:id="mainHBox" xmlns:fx="http://javafx.com/fxml"
+      spacing="100" alignment="CENTER_LEFT">
+
+    <GridPane fx:id="board" style="-fx-background-color: transparent"
+              alignment="CENTER" hgap="-1" vgap="-1">
+        <padding>
+            <Insets top="0" bottom="0" left="-450" right="30"/>
+        </padding>
+
+        <Button fx:id="space0" mnemonicParsing="false"
+                style= "-fx-background-color: transparent; -fx-cursor: hand;"
+                GridPane.rowIndex = "0" GridPane.columnIndex = "0"
+                onAction="#handleClickSpaceButtonAction">
+        </Button>
+
+        <Label fx:id="str0" textAlignment="CENTER"
+               style="-fx-font-size: 15; -fx-font-family: 'Determination Mono';
+                   -fx-text-fill: #553619;" wrapText="true" mouseTransparent="true"
+               GridPane.rowIndex="0" GridPane.columnIndex="0"/>
+
+
+
+        <Button fx:id="space1" mnemonicParsing="false"
+                style= "-fx-background-color: transparent; -fx-cursor: hand;"
+                GridPane.rowIndex = "0" GridPane.columnIndex = "1"
+                onAction="#handleClickSpaceButtonAction">
+        </Button>
+
+        <Label fx:id="str1" textAlignment="CENTER"
+               style="-fx-font-size: 12; -fx-font-family: 'Determination Mono';
+                   -fx-text-fill: #553619;" wrapText="true" mouseTransparent="true"
+               GridPane.rowIndex="0" GridPane.columnIndex="1"/>
+
+
+
+        <Button fx:id="space2" mnemonicParsing="false"
+                style= "-fx-background-color: transparent; -fx-cursor: hand;"
+                GridPane.rowIndex="0" GridPane.columnIndex="2"
+                onAction="#handleClickSpaceButtonAction">
+        </Button>
+
+        <Label fx:id="str2" textAlignment="CENTER"
+               style="-fx-font-size: 12; -fx-font-family: 'Determination Mono';
+                   -fx-text-fill: #553619;" wrapText="true" mouseTransparent="true"
+               GridPane.rowIndex="0" GridPane.columnIndex="2"/>
+
+
+
+        <Button fx:id="space3" mnemonicParsing="false"
+                style= "-fx-background-color: transparent; -fx-cursor: hand;"
+                GridPane.rowIndex="0" GridPane.columnIndex="3"
+                onAction="#handleClickSpaceButtonAction">
+        </Button>
+
+        <Label fx:id="str3" textAlignment="CENTER"
+               style="-fx-font-size: 12; -fx-font-family: 'Determination Mono';
+                   -fx-text-fill: #553619;" wrapText="true" mouseTransparent="true"
+               GridPane.rowIndex="0" GridPane.columnIndex="3"/>
+
+
+
+        <Button fx:id="space4" mnemonicParsing="false"
+                style= "-fx-background-color: transparent; -fx-cursor: hand;"
+                GridPane.rowIndex="0" GridPane.columnIndex="4"
+                onAction="#handleClickSpaceButtonAction">
+        </Button>
+
+        <Label fx:id="str4" textAlignment="CENTER"
+               style="-fx-font-size: 12; -fx-font-family: 'Determination Mono';
+                   -fx-text-fill: #553619;" wrapText="true" mouseTransparent="true"
+               GridPane.rowIndex="0" GridPane.columnIndex="4"/>
+
+
+
+        <Button fx:id="space5" mnemonicParsing="false"
+                style= "-fx-background-color: transparent; -fx-cursor: hand;"
+                GridPane.rowIndex="0" GridPane.columnIndex="5"
+                onAction="#handleClickSpaceButtonAction">
+        </Button>
+
+        <Label fx:id="str5" textAlignment="CENTER"
+               style="-fx-font-size: 12; -fx-font-family: 'Determination Mono';
+                   -fx-text-fill: #553619;" wrapText="true" mouseTransparent="true"
+               GridPane.rowIndex="0" GridPane.columnIndex="5"/>
+
+
+
+        <Button fx:id="space6" mnemonicParsing="false"
+                style= "-fx-background-color: transparent; -fx-cursor: hand;"
+                GridPane.rowIndex="0" GridPane.columnIndex="6"
+                onAction="#handleClickSpaceButtonAction">
+        </Button>
+
+        <Label fx:id="str6" textAlignment="CENTER"
+               style="-fx-font-size: 12; -fx-font-family: 'Determination Mono';
+                   -fx-text-fill: #553619;" wrapText="true" mouseTransparent="true"
+               GridPane.rowIndex="0" GridPane.columnIndex="6"/>
+
+
+
+        <Button fx:id="space7" mnemonicParsing="false"
+                style= "-fx-background-color: transparent; -fx-cursor: hand;"
+                GridPane.rowIndex="0" GridPane.columnIndex="7"
+                onAction="#handleClickSpaceButtonAction">
+        </Button>
+
+        <Label fx:id="str7" textAlignment="CENTER"
+               style="-fx-font-size: 12; -fx-font-family: 'Determination Mono';
+                   -fx-text-fill: #553619;" wrapText="true" mouseTransparent="true"
+               GridPane.rowIndex="0" GridPane.columnIndex="7"/>
+
+
+
+        <Button fx:id="space8" mnemonicParsing="false"
+                style= "-fx-background-color: transparent; -fx-cursor: hand;"
+                GridPane.rowIndex="0" GridPane.columnIndex="8"
+                onAction="#handleClickSpaceButtonAction">
+        </Button>
+
+        <Label fx:id="str8" textAlignment="CENTER"
+               style="-fx-font-size: 15; -fx-font-family: 'Determination Mono';
+                   -fx-text-fill: #553619;" wrapText="true" mouseTransparent="true"
+               GridPane.rowIndex="0" GridPane.columnIndex="8"/>
+
+
+
+        <Button fx:id="space31" mnemonicParsing="false"
+                style= "-fx-background-color: transparent; -fx-cursor: hand;"
+                GridPane.rowIndex = "1" GridPane.columnIndex = "0"
+                onAction="#handleClickSpaceButtonAction">
+        </Button>
+
+        <Label fx:id="str31" textAlignment="CENTER"
+               style="-fx-font-size: 12; -fx-font-family: 'Determination Mono';
+                   -fx-text-fill: #553619;" wrapText="true" mouseTransparent="true"
+               GridPane.rowIndex="1" GridPane.columnIndex="0"/>
+
+
+
+        <Button fx:id="space30" mnemonicParsing="false"
+                style= "-fx-background-color: transparent; -fx-cursor: hand;"
+                GridPane.rowIndex = "2" GridPane.columnIndex = "0"
+                onAction="#handleClickSpaceButtonAction">
+        </Button>
+
+        <Label fx:id="str30" textAlignment="CENTER"
+               style="-fx-font-size: 12; -fx-font-family: 'Determination Mono';
+                   -fx-text-fill: #553619;" wrapText="true" mouseTransparent="true"
+               GridPane.rowIndex="2" GridPane.columnIndex="0"/>
+
+
+
+        <Button fx:id="space29" mnemonicParsing="false"
+                style= "-fx-background-color: transparent; -fx-cursor: hand;"
+                GridPane.rowIndex = "3" GridPane.columnIndex = "0"
+                onAction="#handleClickSpaceButtonAction">
+        </Button>
+
+        <Label fx:id="str29" textAlignment="CENTER"
+               style="-fx-font-size: 12; -fx-font-family: 'Determination Mono';
+                   -fx-text-fill: #553619;" wrapText="true" mouseTransparent="true"
+               GridPane.rowIndex="3" GridPane.columnIndex="0"/>
+
+
+
+        <Button fx:id="space28" mnemonicParsing="false"
+                style= "-fx-background-color: transparent; -fx-cursor: hand;"
+                GridPane.rowIndex = "4" GridPane.columnIndex = "0"
+                onAction="#handleClickSpaceButtonAction">
+        </Button>
+
+        <Label fx:id="str28" textAlignment="CENTER"
+               style="-fx-font-size: 12; -fx-font-family: 'Determination Mono';
+                   -fx-text-fill: #553619;" wrapText="true" mouseTransparent="true"
+               GridPane.rowIndex="4" GridPane.columnIndex="0"/>
+
+
+
+        <Button fx:id="space27" mnemonicParsing="false"
+                style= "-fx-background-color: transparent; -fx-cursor: hand;"
+                GridPane.rowIndex = "5" GridPane.columnIndex = "0"
+                onAction="#handleClickSpaceButtonAction">
+        </Button>
+
+        <Label fx:id="str27" textAlignment="CENTER"
+               style="-fx-font-size: 12; -fx-font-family: 'Determination Mono';
+                   -fx-text-fill: #553619;" wrapText="true" mouseTransparent="true"
+               GridPane.rowIndex="5" GridPane.columnIndex="0"/>
+
+
+
+        <Button fx:id="space26" mnemonicParsing="false"
+                style= "-fx-background-color: transparent; -fx-cursor: hand;"
+                GridPane.rowIndex = "6" GridPane.columnIndex = "0"
+                onAction="#handleClickSpaceButtonAction">
+        </Button>
+
+        <Label fx:id="str26" textAlignment="CENTER"
+               style="-fx-font-size: 12; -fx-font-family: 'Determination Mono';
+                   -fx-text-fill: #553619;" wrapText="true" mouseTransparent="true"
+               GridPane.rowIndex="6" GridPane.columnIndex="0"/>
+
+
+
+        <Button fx:id="space25" mnemonicParsing="false"
+                style= "-fx-background-color: transparent; -fx-cursor: hand;"
+                GridPane.rowIndex = "7" GridPane.columnIndex = "0"
+                onAction="#handleClickSpaceButtonAction">
+        </Button>
+
+        <Label fx:id="str25" textAlignment="CENTER"
+               style="-fx-font-size: 12; -fx-font-family: 'Determination Mono';
+                   -fx-text-fill: #553619;" wrapText="true" mouseTransparent="true"
+               GridPane.rowIndex="7" GridPane.columnIndex="0"/>
+
+
+
+        <Button fx:id="space24" mnemonicParsing="false"
+                style= "-fx-background-color: transparent; -fx-cursor: hand;"
+                GridPane.rowIndex = "8" GridPane.columnIndex = "0"
+                onAction="#handleClickSpaceButtonAction">
+        </Button>
+
+        <Label fx:id="str24" textAlignment="CENTER"
+               style="-fx-font-size: 17; -fx-font-family: 'Determination Mono';
+                   -fx-text-fill: #553619;" wrapText="true" mouseTransparent="true"
+               GridPane.rowIndex="8" GridPane.columnIndex="0"/>
+
+
+
+        <Button fx:id="space9" mnemonicParsing="false"
+                style= "-fx-background-color: transparent; -fx-cursor: hand;"
+                GridPane.rowIndex = "1" GridPane.columnIndex = "8"
+                onAction="#handleClickSpaceButtonAction">
+        </Button>
+
+        <Label fx:id="str9" textAlignment="CENTER"
+               style="-fx-font-size: 12; -fx-font-family: 'Determination Mono';
+                   -fx-text-fill: #553619;" wrapText="true" mouseTransparent="true"
+               GridPane.rowIndex="1" GridPane.columnIndex="8"/>
+
+
+
+        <Button fx:id="space10" mnemonicParsing="false"
+                style= "-fx-background-color: transparent; -fx-cursor: hand;"
+                GridPane.rowIndex = "2" GridPane.columnIndex = "8"
+                onAction="#handleClickSpaceButtonAction">
+        </Button>
+
+        <Label fx:id="str10" textAlignment="CENTER"
+               style="-fx-font-size: 12; -fx-font-family: 'Determination Mono';
+                   -fx-text-fill: #553619;" wrapText="true" mouseTransparent="true"
+               GridPane.rowIndex="2" GridPane.columnIndex="8"/>
+
+
+
+        <Button fx:id="space11" mnemonicParsing="false"
+                style= "-fx-background-color: transparent; -fx-cursor: hand;"
+                GridPane.rowIndex = "3" GridPane.columnIndex = "8"
+                onAction="#handleClickSpaceButtonAction">
+        </Button>
+
+        <Label fx:id="str11" textAlignment="CENTER"
+               style="-fx-font-size: 12; -fx-font-family: 'Determination Mono';
+                   -fx-text-fill: #553619;" wrapText="true" mouseTransparent="true"
+               GridPane.rowIndex="3" GridPane.columnIndex="8"/>
+
+
+
+        <Button fx:id="space12" mnemonicParsing="false"
+                style= "-fx-background-color: transparent; -fx-cursor: hand;"
+                GridPane.rowIndex = "4" GridPane.columnIndex = "8"
+                onAction="#handleClickSpaceButtonAction">
+        </Button>
+
+        <Label fx:id="str12" textAlignment="CENTER"
+               style="-fx-font-size: 12; -fx-font-family: 'Determination Mono';
+                   -fx-text-fill: #553619;" wrapText="true" mouseTransparent="true"
+               GridPane.rowIndex="4" GridPane.columnIndex="8"/>
+
+
+
+        <Button fx:id="space13" mnemonicParsing="false"
+                style= "-fx-background-color: transparent; -fx-cursor: hand;"
+                GridPane.rowIndex = "5" GridPane.columnIndex = "8"
+                onAction="#handleClickSpaceButtonAction">
+        </Button>
+
+        <Label fx:id="str13" textAlignment="CENTER"
+               style="-fx-font-size: 12; -fx-font-family: 'Determination Mono';
+                   -fx-text-fill: #553619;" wrapText="true" mouseTransparent="true"
+               GridPane.rowIndex="5" GridPane.columnIndex="8"/>
+
+
+
+        <Button fx:id="space14" mnemonicParsing="false"
+                style= "-fx-background-color: transparent; -fx-cursor: hand;"
+                GridPane.rowIndex = "6" GridPane.columnIndex = "8"
+                onAction="#handleClickSpaceButtonAction">
+        </Button>
+
+        <Label fx:id="str14" textAlignment="CENTER"
+               style="-fx-font-size: 12; -fx-font-family: 'Determination Mono';
+                   -fx-text-fill: #553619;" wrapText="true" mouseTransparent="true"
+               GridPane.rowIndex="6" GridPane.columnIndex="8"/>
+
+
+
+        <Button fx:id="space15" mnemonicParsing="false"
+                style= "-fx-background-color: transparent; -fx-cursor: hand;"
+                GridPane.rowIndex = "7" GridPane.columnIndex = "8"
+                onAction="#handleClickSpaceButtonAction">
+        </Button>
+
+        <Label fx:id="str15" textAlignment="CENTER"
+               style="-fx-font-size: 12; -fx-font-family: 'Determination Mono';
+                   -fx-text-fill: #553619;" wrapText="true" mouseTransparent="true"
+               GridPane.rowIndex="7" GridPane.columnIndex="8"/>
+
+
+
+        <Button fx:id="space16" mnemonicParsing="false"
+                style= "-fx-background-color: transparent; -fx-cursor: hand;"
+                GridPane.rowIndex = "8" GridPane.columnIndex = "8"
+                onAction="#handleClickSpaceButtonAction">
+        </Button>
+
+        <Label fx:id="str16" textAlignment="CENTER"
+               style="-fx-font-size: 15; -fx-font-family: 'Determination Mono';
+                   -fx-text-fill: #553619;" wrapText="true" mouseTransparent="true"
+               GridPane.rowIndex="8" GridPane.columnIndex="8"/>
+
+
+
+        <Button fx:id="space23" mnemonicParsing="false"
+                style= "-fx-background-color: transparent; -fx-cursor: hand;"
+                GridPane.rowIndex = "8" GridPane.columnIndex = "1"
+                onAction="#handleClickSpaceButtonAction">
+        </Button>
+
+        <Label fx:id="str23" textAlignment="CENTER"
+               style="-fx-font-size: 12; -fx-font-family: 'Determination Mono';
+                   -fx-text-fill: #553619;" wrapText="true" mouseTransparent="true"
+               GridPane.rowIndex="8" GridPane.columnIndex="1"/>
+
+
+
+        <Button fx:id="space22" mnemonicParsing="false"
+                style= "-fx-background-color: transparent; -fx-cursor: hand;"
+                GridPane.rowIndex="8" GridPane.columnIndex="2"
+                onAction="#handleClickSpaceButtonAction">
+        </Button>
+
+        <Label fx:id="str22" textAlignment="CENTER"
+               style="-fx-font-size: 12; -fx-font-family: 'Determination Mono';
+                   -fx-text-fill: #553619;" wrapText="true" mouseTransparent="true"
+               GridPane.rowIndex="8" GridPane.columnIndex="2"/>
+
+
+
+        <Button fx:id="space21" mnemonicParsing="false"
+                style= "-fx-background-color: transparent; -fx-cursor: hand;"
+                GridPane.rowIndex="8" GridPane.columnIndex="3"
+                onAction="#handleClickSpaceButtonAction">
+        </Button>
+
+        <Label fx:id="str21" textAlignment="CENTER"
+               style="-fx-font-size: 12; -fx-font-family: 'Determination Mono';
+                   -fx-text-fill: #553619;" wrapText="true" mouseTransparent="true"
+               GridPane.rowIndex="8" GridPane.columnIndex="3"/>
+
+
+
+        <Button fx:id="space20" mnemonicParsing="false"
+                style= "-fx-background-color: transparent; -fx-cursor: hand;"
+                GridPane.rowIndex="8" GridPane.columnIndex="4"
+                onAction="#handleClickSpaceButtonAction">
+        </Button>
+
+        <Label fx:id="str20" textAlignment="CENTER"
+               style="-fx-font-size: 12; -fx-font-family: 'Determination Mono';
+                   -fx-text-fill: #553619;" wrapText="true" mouseTransparent="true"
+               GridPane.rowIndex="8" GridPane.columnIndex="4"/>
+
+
+
+        <Button fx:id="space19" mnemonicParsing="false"
+                style= "-fx-background-color: transparent; -fx-cursor: hand;"
+                GridPane.rowIndex="8" GridPane.columnIndex="5"
+                onAction="#handleClickSpaceButtonAction">
+        </Button>
+
+        <Label fx:id="str19" textAlignment="CENTER"
+               style="-fx-font-size: 12; -fx-font-family: 'Determination Mono';
+                   -fx-text-fill: #553619;" wrapText="true" mouseTransparent="true"
+               GridPane.rowIndex="8" GridPane.columnIndex="5"/>
+
+
+
+        <Button fx:id="space18" mnemonicParsing="false"
+                style= "-fx-background-color: transparent; -fx-cursor: hand;"
+                GridPane.rowIndex="8" GridPane.columnIndex="6"
+                onAction="#handleClickSpaceButtonAction">
+        </Button>
+
+        <Label fx:id="str18" textAlignment="CENTER"
+               style="-fx-font-size: 12; -fx-font-family: 'Determination Mono';
+                   -fx-text-fill: #553619;" wrapText="true" mouseTransparent="true"
+               GridPane.rowIndex="8" GridPane.columnIndex="6"/>
+
+
+
+        <Button fx:id="space17" mnemonicParsing="false"
+                style= "-fx-background-color: transparent; -fx-cursor: hand;"
+                GridPane.rowIndex="8" GridPane.columnIndex="7"
+                onAction="#handleClickSpaceButtonAction">
+        </Button>
+
+        <Label fx:id="str17" textAlignment="CENTER"
+               style="-fx-font-size: 12; -fx-font-family: 'Determination Mono';
+                   -fx-text-fill: #553619;" wrapText="true" mouseTransparent="true"
+               GridPane.rowIndex="8" GridPane.columnIndex="7"/>
+
+
+
+        <ImageView fx:id="sprite1" GridPane.rowIndex = "0" GridPane.columnIndex = "0"
+                   fitHeight="32" fitWidth="32" pickOnBounds="true" visible="false"
+                   preserveRatio="true" mouseTransparent="true"/>
+
+        <ImageView fx:id="sprite2" GridPane.rowIndex = "0" GridPane.columnIndex = "0"
+                   fitHeight="32" fitWidth="32" pickOnBounds="true" visible="false"
+                   preserveRatio="true" mouseTransparent="true"/>
+
+        <ImageView fx:id="sprite3" GridPane.rowIndex = "0" GridPane.columnIndex = "0"
+                   fitHeight="32" fitWidth="32" pickOnBounds="true" visible="false"
+                   preserveRatio="true" mouseTransparent="true"/>
+
+        <ImageView fx:id="sprite4" GridPane.rowIndex = "0" GridPane.columnIndex = "0"
+                   fitHeight="32" fitWidth="32" pickOnBounds="true" visible="false"
+                   preserveRatio="true" mouseTransparent="true"/>
+
+
+
+        <ImageView fitHeight="250.0" fitWidth="250.0" pickOnBounds="true"
+                   preserveRatio="true" GridPane.halignment="CENTER"
+                   GridPane.rowIndex="2" GridPane.columnIndex="2"
+                   GridPane.rowSpan="2" GridPane.columnSpan="5">
+            <Image url="/alsid/assets/mainscreen-title.png"/>
+        </ImageView>
+
+        <ImageView fx:id="spaceInfoBox" fitHeight="325.0" fitWidth="325.0" pickOnBounds="true"
+                   preserveRatio="true" GridPane.halignment="CENTER" visible="false"
+                   GridPane.rowIndex="2" GridPane.columnIndex="2"
+                   GridPane.rowSpan="3" GridPane.columnSpan="5">
+            <Image url="/alsid/assets/box-space.png"/>
+        </ImageView>
+
+        <Label fx:id="spaceInfoDisplay" visible="false" GridPane.halignment="LEFT"
+               style="-fx-font-size: 12; -fx-font-family: 'Determination Mono';
+               -fx-padding: 20 20 20 40" wrapText="true"
+               GridPane.rowIndex="2" GridPane.columnIndex="2"
+               GridPane.rowSpan="3" GridPane.columnSpan="5"/>
+
+        <HBox GridPane.rowIndex="4" GridPane.columnIndex="2"
+              GridPane.columnSpan="5" GridPane.halignment="CENTER">
+
+            <Button fx:id="startGame" mnemonicParsing="false"
+                    style= "-fx-background-color: transparent; -fx-cursor: hand;"
+                    onAction="#handleStartGameButtonAction">
+                <graphic>
+                    <ImageView fitHeight="150.0" fitWidth="150.0" pickOnBounds="true" preserveRatio="true">
+                        <Image url="/alsid/assets/button-start-game.png" />
+                    </ImageView>
+                </graphic>
+            </Button>
+
+            <Button fx:id="shuffle" mnemonicParsing="false"
+                    style= "-fx-background-color: transparent; -fx-cursor: hand;"
+                    onAction="#handleShuffleButtonAction">
+                <graphic>
+                    <ImageView fitHeight="150.0" fitWidth="150.0" pickOnBounds="true" preserveRatio="true">
+                        <Image url="/alsid/assets/button-shuffle.png" />
+                    </ImageView>
+                </graphic>
+            </Button>
+        </HBox>
+
+        <Button fx:id="endGame" mnemonicParsing="false" visible="false"
+                style= "-fx-background-color: transparent; -fx-cursor: hand;"
+                GridPane.rowIndex="4" GridPane.columnIndex="2"
+                GridPane.columnSpan="5" GridPane.halignment="CENTER"
+                onAction="#handleEndGameButtonAction">
+            <graphic>
+                <ImageView fitHeight="150.0" fitWidth="150.0" pickOnBounds="true" preserveRatio="true">
+                    <Image url="/alsid/assets/button-endgame.png"/>
+                </ImageView>
+            </graphic>
+        </Button>
+
+        <ImageView fitHeight="330.0" fitWidth="330.0" GridPane.halignment="CENTER"
+                   pickOnBounds="true" preserveRatio="true"
+                   GridPane.rowIndex = "5" GridPane.columnIndex = "2"
+                   GridPane.rowSpan="2" GridPane.columnSpan="5">
+            <Image url="/alsid/assets/box.png"/>
+        </ImageView>
+
+        <Label fx:id="message" visible="true" GridPane.halignment="CENTER"
+               style="-fx-font-size: 12; -fx-font-family: 'Determination Mono';
+               -fx-padding: 20 20 20 20" wrapText="true"
+               GridPane.rowIndex="5" GridPane.columnIndex="2"
+               GridPane.rowSpan="2" GridPane.columnSpan="5"/>
+
+    </GridPane>
+
+
+
+    <GridPane style="-fx-background-color: transparent"
+              alignment="CENTER" hgap="15" vgap="5">
+
+        <padding>
+            <Insets top="100" bottom="100" left="-100" right="10"/>
+        </padding>
+
+        <Label fx:id="bankMoney" visible="true" alignment="CENTER"
+               style="-fx-font-size: 15; -fx-font-family: 'Determination Mono';" wrapText="true"
+               GridPane.rowIndex="0" GridPane.columnIndex="0"
+               GridPane.columnSpan="2"/>
+
+        <ImageView fx:id="box1" fitHeight="250.0" fitWidth="250.0"
+                   pickOnBounds="true" preserveRatio="true" visible="false"
+                   GridPane.rowIndex = "1" GridPane.columnIndex = "0">
+            <Image url="/alsid/assets/player-box-green.png" />
+        </ImageView>
+
+        <Label fx:id="player1display" visible="false"
+               style="-fx-font-size: 15; -fx-font-family: 'Determination Mono';
+               -fx-padding: 20 20 20 20"
+               GridPane.rowIndex="1" GridPane.columnIndex="0"/>
+
+        <MenuBar fx:id="menu1top" GridPane.rowIndex = "2" GridPane.columnIndex = "0"
+                 style="-fx-background-color: #ead5bc; -fx-font-size: 12; -fx-font-family: 'Determination Mono'"
+                 visible="false">
+            <Menu text="Properties"/>
+            <Menu text="Utilities"/>
+        </MenuBar>
+
+        <MenuBar fx:id="menu1bottom" GridPane.rowIndex = "3" GridPane.columnIndex = "0"
+                 style="-fx-background-color: #ead5bc; -fx-font-size: 12; -fx-font-family: 'Determination Mono'"
+                 visible="false">
+            <Menu text="Railroads"/>
+            <Menu text="Chance Cards"/>
+        </MenuBar>
+
+
+
+        <ImageView fx:id="box2" fitHeight="250.0" fitWidth="250.0"
+                   pickOnBounds="true" preserveRatio="true" visible="false"
+                   GridPane.rowIndex = "1" GridPane.columnIndex = "1">
+            <Image url="/alsid/assets/player-box-purple.png" />
+        </ImageView>
+
+        <Label fx:id="player2display" visible="false"
+               style="-fx-font-size: 15; -fx-font-family: 'Determination Mono';
+               -fx-padding: 20 20 20 20"
+               GridPane.rowIndex="1" GridPane.columnIndex="1"/>
+
+        <MenuBar fx:id="menu2top" GridPane.rowIndex = "2" GridPane.columnIndex = "1"
+                 style="-fx-background-color: #ead5bc; -fx-font-size: 12; -fx-font-family: 'Determination Mono'"
+                 visible="false">
+            <Menu text="Properties"/>
+            <Menu text="Utilities"/>
+        </MenuBar>
+
+        <MenuBar fx:id="menu2bottom" GridPane.rowIndex = "3" GridPane.columnIndex = "1"
+                 style="-fx-background-color: #ead5bc; -fx-font-size: 12; -fx-font-family: 'Determination Mono'"
+                 visible="false">
+            <Menu text="Railroads"/>
+            <Menu text="Chance Cards"/>
+        </MenuBar>
+
+
+
+        <ImageView fx:id="box3" fitHeight="250.0" fitWidth="250.0"
+                   pickOnBounds="true" preserveRatio="true" visible="false"
+                   GridPane.rowIndex = "5" GridPane.columnIndex = "0">
+            <Image url="/alsid/assets/player-box-red.png" />
+        </ImageView>
+
+        <Label fx:id="player3display" visible="false"
+               style="-fx-font-size: 15; -fx-font-family: 'Determination Mono';
+               -fx-padding: 20 20 20 20"
+               GridPane.rowIndex="5" GridPane.columnIndex="0"/>
+
+        <MenuBar fx:id="menu3top" GridPane.rowIndex = "6" GridPane.columnIndex = "0"
+                 style="-fx-background-color: #ead5bc; -fx-font-size: 12; -fx-font-family: 'Determination Mono'"
+                 visible="false">
+            <Menu text="Properties"/>
+            <Menu text="Utilities"/>
+        </MenuBar>
+
+        <MenuBar fx:id="menu3bottom" GridPane.rowIndex = "7" GridPane.columnIndex = "0"
+                 style="-fx-background-color: #ead5bc; -fx-font-size: 12; -fx-font-family: 'Determination Mono'"
+                 visible="false">
+            <Menu text="Railroads"/>
+            <Menu text="Chance Cards"/>
+        </MenuBar>
+
+
+
+        <ImageView fx:id="box4" fitHeight="250.0" fitWidth="250.0"
+                   pickOnBounds="true" preserveRatio="true" visible="false"
+                   GridPane.rowIndex = "5" GridPane.columnIndex = "1">
+            <Image url="/alsid/assets/player-box-yellow.png" />
+        </ImageView>
+
+        <Label fx:id="player4display" visible="false"
+               style="-fx-font-size: 15; -fx-font-family: 'Determination Mono';
+               -fx-padding: 20 20 20 20"
+               GridPane.rowIndex="5" GridPane.columnIndex="1"/>
+
+        <MenuBar fx:id="menu4top" GridPane.rowIndex = "6" GridPane.columnIndex = "1"
+                 style="-fx-background-color: #ead5bc; -fx-font-size: 12; -fx-font-family: 'Determination Mono'"
+                 visible="false">
+            <Menu text="Properties"/>
+            <Menu text="Utilities"/>
+        </MenuBar>
+
+        <MenuBar fx:id="menu4bottom" GridPane.rowIndex = "7" GridPane.columnIndex = "1"
+                 style="-fx-background-color: #ead5bc; -fx-font-size: 12; -fx-font-family: 'Determination Mono'"
+                 visible="false">
+            <Menu text="Railroads"/>
+            <Menu text="Chance Cards"/>
+        </MenuBar>
+
+
+
+        <Button fx:id="rollDice" mnemonicParsing="false" visible="false"
+                style= "-fx-background-color: transparent; -fx-cursor: hand;"
+                GridPane.rowIndex="8" GridPane.columnIndex="0"
+                onAction="#handleRollDiceButtonAction">
+            <graphic>
+                <ImageView fitHeight="150.0" fitWidth="150.0" pickOnBounds="true" preserveRatio="true">
+                    <Image url="/alsid/assets/button-rolldice.png" />
+                </ImageView>
+            </graphic>
+        </Button>
+
+        <TextField fx:id="diceNumber" visible="false"
+                   GridPane.rowIndex="8" GridPane.columnIndex="1"/>
+
+
+
+        <Button fx:id="pass" mnemonicParsing="false" visible="false"
+                style= "-fx-background-color: transparent; -fx-cursor: hand;"
+                GridPane.rowIndex="9" GridPane.columnIndex="0"
+                onAction="#handlePassButtonAction">
+            <graphic>
+                <ImageView fitHeight="150.0" fitWidth="150.0" pickOnBounds="true" preserveRatio="true">
+                    <Image url="/alsid/assets/button-passturn.png" />
+                </ImageView>
+            </graphic>
+        </Button>
+
+        <Button fx:id="payRent" mnemonicParsing="false" visible="false"
+                style= "-fx-background-color: transparent; -fx-cursor: hand;"
+                GridPane.rowIndex="9" GridPane.columnIndex="0"
+                onAction="#handlePayRentButtonAction">
+            <graphic>
+                <ImageView fitHeight="150.0" fitWidth="150.0" pickOnBounds="true" preserveRatio="true">
+                    <Image url="/alsid/assets/button-payrent.png" />
+                </ImageView>
+            </graphic>
+        </Button>
+
+        <Button fx:id="payTax" mnemonicParsing="false" visible="false"
+                style= "-fx-background-color: transparent; -fx-cursor: hand;"
+                GridPane.rowIndex="9" GridPane.columnIndex="0"
+                onAction="#handlePayTaxButtonAction">
+            <graphic>
+                <ImageView fitHeight="150.0" fitWidth="150.0" pickOnBounds="true" preserveRatio="true">
+                    <Image url="/alsid/assets/button-paytax.png" />
+                </ImageView>
+            </graphic>
+        </Button>
+
+        <Button fx:id="drawChance" mnemonicParsing="false" visible="false"
+                style= "-fx-background-color: transparent; -fx-cursor: hand;"
+                GridPane.rowIndex="9" GridPane.columnIndex="0"
+                onAction="#handleDrawChanceButtonAction">
+            <graphic>
+                <ImageView fitHeight="150.0" fitWidth="150.0" pickOnBounds="true" preserveRatio="true">
+                    <Image url="/alsid/assets/button-drawcard.png" />
+                </ImageView>
+            </graphic>
+        </Button>
+
+
+        <Button fx:id="develop" mnemonicParsing="false" visible="false"
+                style= "-fx-background-color: transparent; -fx-cursor: hand;"
+                GridPane.rowIndex="10" GridPane.columnIndex="0"
+                onAction="#handleDevelopButtonAction">
+            <graphic>
+                <ImageView fitHeight="150.0" fitWidth="150.0" pickOnBounds="true" preserveRatio="true">
+                    <Image url="/alsid/assets/button-develop.png" />
+                </ImageView>
+            </graphic>
+        </Button>
+
+        <Button fx:id="purchase" mnemonicParsing="false" visible="false"
+                style= "-fx-background-color: transparent; -fx-cursor: hand;"
+                GridPane.rowIndex="10" GridPane.columnIndex="0"
+                onAction="#handlePurchaseButtonAction">
+            <graphic>
+                <ImageView fitHeight="150.0" fitWidth="150.0" pickOnBounds="true" preserveRatio="true">
+                    <Image url="/alsid/assets/button-purchase.png" />
+                </ImageView>
+            </graphic>
+        </Button>
+
+        <Button fx:id="trade" mnemonicParsing="false" visible="false"
+                style= "-fx-background-color: transparent; -fx-cursor: hand;"
+                GridPane.rowIndex="10" GridPane.columnIndex="0"
+                onAction="#handleTradeButtonAction">
+            <graphic>
+                <ImageView fitHeight="150.0" fitWidth="150.0" pickOnBounds="true" preserveRatio="true">
+                    <Image url="/alsid/assets/button-trade.png" />
+                </ImageView>
+            </graphic>
+        </Button>
+
+        <Button fx:id="cancelTrade" mnemonicParsing="false" visible="false"
+                style= "-fx-background-color: transparent; -fx-cursor: hand;"
+                GridPane.rowIndex="10" GridPane.columnIndex="0"
+                onAction="#handleCancelTradeButtonAction">
+            <graphic>
+                <ImageView fitHeight="150.0" fitWidth="150.0" pickOnBounds="true" preserveRatio="true">
+                    <Image url="/alsid/assets/button-cancel.png" />
+                </ImageView>
+            </graphic>
+        </Button>
+
+        <Button fx:id="agree" mnemonicParsing="false" visible="false"
+                style= "-fx-background-color: transparent; -fx-cursor: hand;"
+                GridPane.rowIndex="11" GridPane.columnIndex="0"
+                onAction="#handleAgreeButtonAction">
+            <graphic>
+                <ImageView fitHeight="150.0" fitWidth="150.0" pickOnBounds="true" preserveRatio="true">
+                    <Image url="/alsid/assets/button-agree.png" />
+                </ImageView>
+            </graphic>
+        </Button>
+
+
+
+        <Button fx:id="bankrupt" text="BANKRUPT" mnemonicParsing="false"
+                style= "-fx-cursor: hand" visible="false"
+                GridPane.rowIndex="11" GridPane.columnIndex="1"
+                onAction="#handleBankruptButtonAction"/>
+    </GridPane>
+</HBox>

@@ -1,0 +1,723 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="alsid:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/alsid/controller/GameScreenController.java" line="256" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c837f239-38c0-43a8-aa9c-74d1ddaf11e8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/alsid/controller/MainScreen.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="840">
+              <caret line="53" column="21" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/alsid/controller/MainScreenController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#839#840#0" expanded="true" />
+                <element signature="e#869#870#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/alsid.iml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/alsid/view/MainScreen.fxml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="660">
+              <caret line="33" column="52" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="52" />
+            </state>
+          </provider>
+          <provider editor-type-id="JavaFX-Scene-Builder" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/alsid/controller/AddPlayersController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3120">
+              <caret line="164" column="65" selection-start-line="164" selection-start-column="65" selection-end-line="164" selection-end-column="65" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/alsid/view/AddPlayers.fxml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1340">
+              <caret line="67" selection-start-line="67" selection-end-line="67" />
+            </state>
+          </provider>
+          <provider editor-type-id="JavaFX-Scene-Builder" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/alsid/controller/GameEndController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="FxmlFile" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>gethousecount</find>
+      <find>nhousecount</find>
+      <find>candevelop</find>
+      <find>FULLY_DEVELOPED</find>
+      <find>bankru</find>
+      <find>textfield</find>
+      <find>label</find>
+      <find>handleban</find>
+      <find>traded</find>
+      <find>isswapping</find>
+      <find>increntcollec</find>
+      <find>onland</find>
+      <find>img</find>
+      <find>getima</find>
+      <find>getimage</find>
+      <find>image</find>
+      <find>owner</find>
+      <find>init</find>
+      <find>handleroll</find>
+      <find>endgame</find>
+      <find>end</find>
+      <find>handledraw</find>
+      <find>textfie</find>
+      <find>timeline</find>
+      <find>text</find>
+      <find>fill</find>
+      <find>font</find>
+      <find>color</find>
+      <find>id=</find>
+      <find>handleStartButtonAction</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>handleClickSpaceButtonAction</replace>
+      <replace>&quot;</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/Game.java" />
+        <option value="$PROJECT_DIR$/src/Player.java" />
+        <option value="$PROJECT_DIR$/src/MainScreen.fxml" />
+        <option value="$PROJECT_DIR$/src/MainScreenController.java" />
+        <option value="$PROJECT_DIR$/src/GameScreenController.java" />
+        <option value="$PROJECT_DIR$/src/MainScreen.java" />
+        <option value="$PROJECT_DIR$/src/AddPlayersController.java" />
+        <option value="$PROJECT_DIR$/src/AddPlayers.fxml" />
+        <option value="$PROJECT_DIR$/src/GameScreen.fxml" />
+        <option value="$PROJECT_DIR$/src/model/Player.java" />
+        <option value="$PROJECT_DIR$/src/controller/AddPlayersController.java" />
+        <option value="$PROJECT_DIR$/src/model/Game.java" />
+        <option value="$PROJECT_DIR$/src/controller/MainScreen.java" />
+        <option value="$PROJECT_DIR$/src/controller/MainScreenController.java" />
+        <option value="$PROJECT_DIR$/src/controller/GameScreenController.java" />
+        <option value="$PROJECT_DIR$/src/alsid/model/Player.java" />
+        <option value="$PROJECT_DIR$/src/alsid/model/game (1)/Player.java" />
+        <option value="$PROJECT_DIR$/src/alsid/model/game/Chance.java" />
+        <option value="$PROJECT_DIR$/src/alsid/model/Game.java" />
+        <option value="$PROJECT_DIR$/src/alsid/controller/MainScreenController.java" />
+        <option value="$PROJECT_DIR$/src/alsid/model/space/LuxuryTax.java" />
+        <option value="$PROJECT_DIR$/src/alsid/model/space/IncomeTax.java" />
+        <option value="$PROJECT_DIR$/src/alsid/model/space/NoEventSpace.java" />
+        <option value="$PROJECT_DIR$/src/alsid/model/space/Space.java" />
+        <option value="$PROJECT_DIR$/src/alsid/view/GameEnd.fxml" />
+        <option value="$PROJECT_DIR$/src/alsid/model/space/CommunityService.java" />
+        <option value="$PROJECT_DIR$/src/alsid/view/AddPlayers.fxml" />
+        <option value="$PROJECT_DIR$/src/alsid/controller/AddPlayersController.java" />
+        <option value="$PROJECT_DIR$/src/alsid/model/space/ChanceSpace.java" />
+        <option value="$PROJECT_DIR$/src/alsid/model/space/IncomeTaxSpace.java" />
+        <option value="$PROJECT_DIR$/src/alsid/model/space/LuxuryTaxSpace.java" />
+        <option value="$PROJECT_DIR$/src/alsid/model/game/Deck.java" />
+        <option value="$PROJECT_DIR$/src/alsid/model/chance/GetOutOfJailChance.java" />
+        <option value="$PROJECT_DIR$/src/alsid/model/chance/ChangeMoneyChance.java" />
+        <option value="$PROJECT_DIR$/src/alsid/model/chance/Chance.java" />
+        <option value="$PROJECT_DIR$/src/alsid/model/game/Bank.java" />
+        <option value="$PROJECT_DIR$/src/alsid/model/chance/MoveToSpaceChance.java" />
+        <option value="$PROJECT_DIR$/src/alsid/model/chance/RentModifierChance.java" />
+        <option value="$PROJECT_DIR$/src/alsid/model/asset/Railroad.java" />
+        <option value="$PROJECT_DIR$/src/alsid/model/asset/Utility.java" />
+        <option value="$PROJECT_DIR$/src/alsid/model/asset/Asset.java" />
+        <option value="$PROJECT_DIR$/src/alsid/model/asset/Property.java" />
+        <option value="$PROJECT_DIR$/src/alsid/controller/GameEndController.java" />
+        <option value="$PROJECT_DIR$/src/alsid/view/MainScreen.fxml" />
+        <option value="$PROJECT_DIR$/src/alsid/model/game/Board.java" />
+        <option value="$PROJECT_DIR$/src/alsid/model/game/Game.java" />
+        <option value="$PROJECT_DIR$/src/alsid/controller/MainScreen.java" />
+        <option value="$PROJECT_DIR$/src/alsid/model/game/Player.java" />
+        <option value="$PROJECT_DIR$/src/alsid/view/GameScreen.fxml" />
+        <option value="$PROJECT_DIR$/src/alsid/controller/GameScreenController.java" />
+        <option value="$USER_HOME$/MatrixTestGJE.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="995" />
+    <option name="width" value="930" />
+    <option name="height" value="1090" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="around-la-salle-in-80-days" type="b2602c69:ProjectViewProjectNode" />
+              <item name="around-la-salle-in-80-days" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564624806146" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="MainScreen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8.0_212" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="alsid.controller.MainScreen" />
+      <module name="alsid" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MainScreen" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c837f239-38c0-43a8-aa9c-74d1ddaf11e8" name="Default Changelist" comment="" />
+      <created>1563332984433</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1563332984433</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="67" y="-7" width="1476" height="878" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7281553" visible="true" weight="0.1532486" />
+      <window_info id="Structure" order="1" sideWeight="0.27184466" side_tool="true" weight="0.21619433" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.18472469" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49959514" weight="0.13672923" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49959514" weight="0.27708703" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.06927176" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49878544" weight="0.3285968" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50040483" side_tool="true" weight="0.1758437" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.38188276" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24939272" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven" order="7" weight="0.32955465" />
+    </layout>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$USER_HOME$/Trash/space/IncomeTax.java" />
+    <entry file="file://$USER_HOME$/Trash/asset/Property.java" />
+    <entry file="file://$USER_HOME$/Trash/chance/MoveToSpaceChance.java" />
+    <entry file="file://$USER_HOME$/Trash/chance/Chance.java" />
+    <entry file="file://$USER_HOME$/Trash/game/Board.java" />
+    <entry file="file://$PROJECT_DIR$/src/alsid/model/game/Game (1).java" />
+    <entry file="file://$PROJECT_DIR$/src/alsid/model/game/Chance.java" />
+    <entry file="file://$PROJECT_DIR$/src/alsid/Phase1_Driver.java" />
+    <entry file="file://$PROJECT_DIR$/src/alsid/TestCases.java" />
+    <entry file="file://$PROJECT_DIR$/src/alsid/model/Game.java" />
+    <entry file="file://$PROJECT_DIR$/src/alsid/model/Player.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_212/javafx-src.zip!/javafx/scene/image/Image.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="1109" column="26" selection-start-line="1109" selection-start-column="26" selection-end-line="1109" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/alsid/model/space/CommunityService.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_212/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="495" column="8" selection-start-line="495" selection-start-column="8" selection-end-line="495" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/alsid/model/space/IncomeTax.java" />
+    <entry file="file://$PROJECT_DIR$/src/alsid/model/space/LuxuryTax.java" />
+    <entry file="file://$PROJECT_DIR$/src/alsid/model/asset/Asset.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1367">
+          <caret line="82" column="27" selection-start-line="82" selection-start-column="21" selection-end-line="82" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/alsid/model/asset/Property.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2007">
+          <caret line="206" column="30" selection-start-line="206" selection-start-column="30" selection-end-line="206" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/alsid/model/asset/Railroad.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-220">
+          <caret line="28" column="54" selection-start-line="28" selection-start-column="54" selection-end-line="28" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/alsid/model/asset/Utility.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-787">
+          <caret line="23" column="36" lean-forward="true" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/alsid/model/chance/AssetApplicable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/alsid/model/chance/Chance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="117" lean-forward="true" selection-start-line="117" selection-end-line="117" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/alsid/model/chance/ChangeMoneyChance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-713">
+          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/alsid/model/chance/GetOutOfJailChance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="436">
+          <caret line="23" column="13" lean-forward="true" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/alsid/model/chance/MoveToSpaceChance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1007">
+          <caret line="55" column="34" selection-start-line="55" selection-start-column="34" selection-end-line="55" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/alsid/model/chance/PlayerApplicable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/alsid/model/chance/RentModifierChance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="74" column="9" lean-forward="true" selection-start-line="74" selection-start-column="9" selection-end-line="74" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/alsid/model/game/Bank.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-620">
+          <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/alsid/model/game/Deck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-120">
+          <caret line="94" column="18" lean-forward="true" selection-start-line="94" selection-start-column="18" selection-end-line="94" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/alsid/model/game/Payable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/alsid/model/space/Space.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/alsid/model/space/CommunityServiceSpace.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/alsid/model/space/ChanceSpace.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="58" column="38" lean-forward="true" selection-start-line="58" selection-start-column="38" selection-end-line="58" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/alsid/model/space/IncomeTaxSpace.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-37">
+          <caret line="59" column="36" lean-forward="true" selection-start-line="59" selection-start-column="36" selection-end-line="59" selection-end-column="36" />
+          <folding>
+            <element signature="e#1070#1071#0" expanded="true" />
+            <element signature="e#1106#1107#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/alsid/model/space/LuxuryTaxSpace.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3">
+          <caret line="49" column="18" lean-forward="true" selection-start-line="49" selection-start-column="18" selection-end-line="49" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/alsid/model/space/NoEventSpace.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-200">
+          <caret line="28" column="7" lean-forward="true" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/alsid/model/game/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-420">
+          <caret line="105" column="7" selection-start-line="105" selection-start-column="7" selection-end-line="105" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/alsid/model/game/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="19" column="45" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/alsid/view/GameScreen.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13200">
+          <caret line="660" column="52" selection-start-line="660" selection-start-column="52" selection-end-line="660" selection-end-column="52" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/alsid/model/game/Board.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="73" selection-start-line="73" selection-end-line="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/MatrixTestDetRef.java" />
+    <entry file="file://$USER_HOME$/MatrixTestGJE.java" />
+    <entry file="file://$PROJECT_DIR$/src/alsid/controller/GameScreenController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="846" column="14" selection-start-line="846" selection-start-column="14" selection-end-line="846" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#18522#18523#0" expanded="true" />
+            <element signature="e#18553#18554#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/alsid/view/GameEnd.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="48" column="54" lean-forward="true" selection-start-line="48" selection-start-column="54" selection-end-line="48" selection-end-column="54" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/alsid/controller/MainScreen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="53" column="21" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/alsid/view/MainScreen.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="33" column="52" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="52" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/alsid/controller/AddPlayersController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3120">
+          <caret line="164" column="65" selection-start-line="164" selection-start-column="65" selection-end-line="164" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/alsid/view/AddPlayers.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1340">
+          <caret line="67" selection-start-line="67" selection-end-line="67" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/alsid/controller/GameEndController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/alsid/controller/MainScreenController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#839#840#0" expanded="true" />
+            <element signature="e#869#870#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alsid.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>alsid:jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8.0_212</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>alsid</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

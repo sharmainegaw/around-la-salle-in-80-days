@@ -3,7 +3,7 @@ A Java application for a Monopoly-inspired DLSU-themed board game for 2-4 player
 
 ## Running the Application
 
-You may run .JAR file to start the application or run it in an IDE.
+You may run alsid.jar file to start the application or run it in an IDE.
 
 ## Built With
 * Java, using IntelliJ

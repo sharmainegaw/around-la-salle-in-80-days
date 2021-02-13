@@ -1,5 +1,5 @@
 # Around La Salle in 80 Days
-A Java application for a Monopoly-inspired DLSU-themed board game for 2-4 players, developed by __[Sharmaine](https://github.com/sharmainegaw)__ and __[Lance](https://github.com/S0rbetes/)__ as a requirement for CCPROG3.
+A Java application for a Monopoly-inspired DLSU-themed board game for 2-4 players, in collaboration with __[Lance Teng](https://github.com/S0rbetes/)__ as a requirement for the class Object Oriented Programming.
 
 ## Running the Application
 
